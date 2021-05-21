@@ -11,8 +11,10 @@ This project should conform to SOLID principle, Automated Testing, Continuous de
 TO ensure efficiency and availability, we will also support CAP theorem
 
 We will be introducing 
- - a caching layer to 
+ - a caching layer
  - a message queue
  - a nofitication system
  - a frontend service, i.e. gateway
+ - SAST (static testing involves stripping off non-functional code like node_modules,tests,docs,confgiration file and send them to veracode)
+ - DAST (dynamic applicaton secuirty testing via BURP suite pro)
  
