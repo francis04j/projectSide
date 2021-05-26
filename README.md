@@ -8,9 +8,12 @@ Project is based on a Car Rental Platform that allows users to
  
 This project should conform to SOLID principle, Automated Testing, Continuous deployment and Cloud support.
 
+The API that we will be creating can be programmed in any language that you desire (typescript, javascript, java, c#, GO, Python)
 TO ensure efficiency and availability, we will also support CAP theorem
 
 We will be introducing 
+ - a relational database
+ - a no-sql database
  - a caching layer
  - a message queue
  - a nofitication system
