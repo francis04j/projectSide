@@ -1,6 +1,6 @@
 # projectSide
 Practice side project for backend development using node.js, javascript, typescript, cloud, microservices
-
+ 
 Project is based on a Car Rental Platform that allows users to 
  - to submit a car up for rent. 
  - to pay to rent a car
