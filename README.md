@@ -20,4 +20,38 @@ We will be introducing
  - a frontend service, i.e. gateway
  - SAST (static testing involves stripping off non-functional code like node_modules,tests,docs,confgiration file and send them to veracode)
  - DAST (dynamic applicaton secuirty testing via BURP suite pro)
- 
+
+API endpoint: 
+P/rent
+
+Models
+  -Car {
+   type:
+   speed
+   year
+   price charge
+   availabilty
+   last-rented
+  }
+  
+  Customer{
+   Age
+   Credit card allowance
+   ID
+   Name
+   Address
+   ActiveCar
+  }
+  
+  Location
+  {
+   PostCode
+   Contact Number
+   NUmber of cars available
+  }
+  
+
+  
+End-2-end system design
+
+Tools: GCP, Kubernetes, Github action (CI/CD), Docker for service and database
