@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package rentPkg;
+
+service rent {
+    rpc rentCar(RentCarMessage) returns (RentCarResponse);
+    rpc getRentQueries(voidParam) returns (RentCarResponse);
+}
+
+message RentCarMessage {
+    int32 carId = 1;
+    string pickupLocation = 2;
+    string returnLocation = 3;
+    string pickupDate = 4;
+    string returnDate = 5;
+    int32 rentalId = 6;
+  //  repeated int32 extras = 7;
+}
+
+message RentCarResponse {
+    int32 receiptId = 1;
+}
+
+message voidParam {}

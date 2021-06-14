@@ -2,9 +2,9 @@
 Practice side project for backend development using node.js, javascript, typescript, cloud, microservices
  
 Project is based on a Car Rental Platform that allows users to 
- - to submit a car up for rent. 
- - to pay to rent a car
- - to trade a car for another car.
+ - rent a car
+ - view all cars
+
  
 This project should conform to SOLID principle, Automated Testing, Continuous deployment and Cloud support.
 
