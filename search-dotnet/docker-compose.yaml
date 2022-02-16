@@ -1,0 +1,16 @@
+version: '3.7'
+services:
+  justeatsearch-api:
+    image: docker.com/francis04j/justeatsearch
+    container_name: justeatsearch
+    command: /bin/bash /var/opt/mssql/db/ddl-loader.sh
+    environment:
+      - SearchBaseUrl=https://uk.api.just-eat.io/restaurants/bypostcode
+    ports:
+      - 8080:80
+  frontend:
+    image: docker.com/francis04j/justfrontend
+    container_name: frontend
+    command: --verbose --record-mappings --global-response-templating
+    ports:
+      - 1234:8080

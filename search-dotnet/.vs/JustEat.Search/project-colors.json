@@ -1,0 +1,46 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "53bdc8c6-1313-4ead-ad5f-b8bf544a10d7": {
+      "ProjectGuid": "53bdc8c6-1313-4ead-ad5f-b8bf544a10d7",
+      "DisplayName": "Frontend",
+      "ColorIndex": 0
+    },
+    "0fa04fd4-bfad-462c-ab70-bc4024eb1c8c": {
+      "ProjectGuid": "0fa04fd4-bfad-462c-ab70-bc4024eb1c8c",
+      "DisplayName": "Api",
+      "ColorIndex": 1
+    },
+    "0b2d0c57-4e1b-4ed2-8caf-a80fed1d93d0": {
+      "ProjectGuid": "0b2d0c57-4e1b-4ed2-8caf-a80fed1d93d0",
+      "DisplayName": "Application",
+      "ColorIndex": 2
+    },
+    "534755a4-5444-46b1-93b9-e386545559e3": {
+      "ProjectGuid": "534755a4-5444-46b1-93b9-e386545559e3",
+      "DisplayName": "ApplicationTest",
+      "ColorIndex": 3
+    },
+    "7d50749b-3165-4bf9-905e-f7c4948b6705": {
+      "ProjectGuid": "7d50749b-3165-4bf9-905e-f7c4948b6705",
+      "DisplayName": "AcceptanceTests",
+      "ColorIndex": 4
+    },
+    "042c9a2a-ad4a-4da7-987f-ffbc7d41919c": {
+      "ProjectGuid": "042c9a2a-ad4a-4da7-987f-ffbc7d41919c",
+      "DisplayName": "IntegrationTest",
+      "ColorIndex": 5
+    },
+    "3ed099cc-d4eb-4417-9a8f-aa4a16b55118": {
+      "ProjectGuid": "3ed099cc-d4eb-4417-9a8f-aa4a16b55118",
+      "DisplayName": "Brokers",
+      "ColorIndex": 6
+    },
+    "7742e990-1262-4e45-b2f3-62482f7a43bb": {
+      "ProjectGuid": "7742e990-1262-4e45-b2f3-62482f7a43bb",
+      "DisplayName": "Domain",
+      "ColorIndex": 7
+    }
+  },
+  "NextColorIndex": 8
+}

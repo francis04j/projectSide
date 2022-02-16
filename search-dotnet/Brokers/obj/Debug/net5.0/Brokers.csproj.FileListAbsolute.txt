@@ -1,0 +1,15 @@
+C:\Dev\projectSide\search-dotnet\Brokers\bin\Debug\net5.0\Brokers.deps.json
+C:\Dev\projectSide\search-dotnet\Brokers\bin\Debug\net5.0\Brokers.dll
+C:\Dev\projectSide\search-dotnet\Brokers\bin\Debug\net5.0\ref\Brokers.dll
+C:\Dev\projectSide\search-dotnet\Brokers\bin\Debug\net5.0\Brokers.pdb
+C:\Dev\projectSide\search-dotnet\Brokers\obj\Debug\net5.0\Brokers.csproj.AssemblyReference.cache
+C:\Dev\projectSide\search-dotnet\Brokers\obj\Debug\net5.0\Brokers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\projectSide\search-dotnet\Brokers\obj\Debug\net5.0\Brokers.AssemblyInfoInputs.cache
+C:\Dev\projectSide\search-dotnet\Brokers\obj\Debug\net5.0\Brokers.AssemblyInfo.cs
+C:\Dev\projectSide\search-dotnet\Brokers\obj\Debug\net5.0\Brokers.csproj.CoreCompileInputs.cache
+C:\Dev\projectSide\search-dotnet\Brokers\obj\Debug\net5.0\Brokers.dll
+C:\Dev\projectSide\search-dotnet\Brokers\obj\Debug\net5.0\ref\Brokers.dll
+C:\Dev\projectSide\search-dotnet\Brokers\obj\Debug\net5.0\Brokers.pdb
+C:\Dev\projectSide\search-dotnet\Brokers\bin\Debug\net5.0\Brokers.runtimeconfig.json
+C:\Dev\projectSide\search-dotnet\Brokers\bin\Debug\net5.0\Brokers.runtimeconfig.dev.json
+C:\Dev\projectSide\search-dotnet\Brokers\obj\Debug\net5.0\Brokers.genruntimeconfig.cache

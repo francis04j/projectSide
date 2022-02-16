@@ -1,0 +1,5 @@
+C:\Dev\projectSide\search-dotnet\IntegrationTest\obj\Debug\net5.0\IntegrationTest.csproj.AssemblyReference.cache
+C:\Dev\projectSide\search-dotnet\IntegrationTest\obj\Debug\net5.0\IntegrationTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\projectSide\search-dotnet\IntegrationTest\obj\Debug\net5.0\IntegrationTest.AssemblyInfoInputs.cache
+C:\Dev\projectSide\search-dotnet\IntegrationTest\obj\Debug\net5.0\IntegrationTest.AssemblyInfo.cs
+C:\Dev\projectSide\search-dotnet\IntegrationTest\obj\Debug\net5.0\IntegrationTest.csproj.CoreCompileInputs.cache
