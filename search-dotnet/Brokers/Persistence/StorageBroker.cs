@@ -26,7 +26,7 @@ namespace Brokers
         public Blog Blog { get; set; }
     }
 
-    public class StorageBroker : DbContext//EFxceptionsContext
+    public class StorageBroker 
     {
             public string DbPath { get; }
             public DbSet<Blog> Blogs { get; set; }
@@ -52,8 +52,8 @@ namespace Brokers
         //    => options.UseSqlite($"Data Source={DbPath}", x => x.MigrationsAssembly("Brokers"));
         //    
 
-           protected override void OnConfiguring(DbContextOptionsBuilder options)
-             => options.UseSqlServer($"Data Source=localhost; Initial Catalog=dotnet-5-crud-api; User Id=sa; Password=testPass123", x => x.MigrationsAssembly("Brokers"));          
+      //     protected override void OnConfiguring(DbContextOptionsBuilder options)
+        //     => options.UseSqlServer($"Data Source=localhost; Initial Catalog=dotnet-5-crud-api; User Id=sa; Password=testPass123", x => x.MigrationsAssembly("Brokers"));          
             
         /*  {
               return await Queries.FirstOrDefaultAsync(x => x.Term == term);

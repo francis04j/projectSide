@@ -13,3 +13,8 @@ C:\Dev\projectSide\search-dotnet\Brokers\obj\Debug\net5.0\Brokers.pdb
 C:\Dev\projectSide\search-dotnet\Brokers\bin\Debug\net5.0\Brokers.runtimeconfig.json
 C:\Dev\projectSide\search-dotnet\Brokers\bin\Debug\net5.0\Brokers.runtimeconfig.dev.json
 C:\Dev\projectSide\search-dotnet\Brokers\obj\Debug\net5.0\Brokers.genruntimeconfig.cache
+C:\Dev\projectSide\search-dotnet\Brokers\bin\Debug\net5.0\Application.dll
+C:\Dev\projectSide\search-dotnet\Brokers\bin\Debug\net5.0\Domain.dll
+C:\Dev\projectSide\search-dotnet\Brokers\bin\Debug\net5.0\Application.pdb
+C:\Dev\projectSide\search-dotnet\Brokers\bin\Debug\net5.0\Domain.pdb
+C:\Dev\projectSide\search-dotnet\Brokers\obj\Debug\net5.0\Brokers.csproj.CopyComplete
