@@ -26,20 +26,37 @@ namespace Brokers
         public Blog Blog { get; set; }
     }
 
-    public class StorageBroker 
+    public class Blogg
+    {
+        public int Id { get; set; }
+        public string Term { get; set; }
+
+        public DateTime Created { get; set; }
+
+        public string? CreatedBy { get; set; }
+
+        public DateTime? LastModified { get; set; }
+
+        public string? LastModifiedBy { get; set; }
+
+    }
+
+    public class StorageBroker : DbContext
     {
             public string DbPath { get; }
             public DbSet<Blog> Blogs { get; set; }
             public DbSet<Post> Posts { get; set; }
-    
-        /* public StorageBroker(DbContextOptions<StorageBroker> options)
+
+        public DbSet<Blogg> Bloggs { get; set; }
+
+        public StorageBroker(DbContextOptions<StorageBroker> options)
              : base(options) { 
              this.Database.Migrate();
              var folder = Environment.SpecialFolder.LocalApplicationData;
              var path = Environment.GetFolderPath(folder);
              DbPath = System.IO.Path.Join(path, "blogging.db");
          }
-        */
+        
 
             public StorageBroker()
                 {
@@ -52,8 +69,8 @@ namespace Brokers
         //    => options.UseSqlite($"Data Source={DbPath}", x => x.MigrationsAssembly("Brokers"));
         //    
 
-      //     protected override void OnConfiguring(DbContextOptionsBuilder options)
-        //     => options.UseSqlServer($"Data Source=localhost; Initial Catalog=dotnet-5-crud-api; User Id=sa; Password=testPass123", x => x.MigrationsAssembly("Brokers"));          
+           protected override void OnConfiguring(DbContextOptionsBuilder options)
+            => options.UseSqlServer($"Data Source=localhost,1500; Initial Catalog=dotnet-5-crud-api; User Id=sa; Password=Pass@word", x => x.MigrationsAssembly("Brokers"));          
             
         /*  {
               return await Queries.FirstOrDefaultAsync(x => x.Term == term);

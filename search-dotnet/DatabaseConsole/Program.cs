@@ -9,6 +9,7 @@ namespace DatabaseConsole
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+           
             using(var db = new StorageBroker())
             {
                 db.Database.EnsureCreated();
@@ -29,6 +30,7 @@ namespace DatabaseConsole
                 Console.WriteLine($"same blog retrieved?: {blog.Url == url }");
 
             }
+            
         }
     }
 }

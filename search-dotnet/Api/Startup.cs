@@ -13,6 +13,7 @@ using Application.HttpClients;
 using System.Net.Http;
 using Brokers;
 using Microsoft.EntityFrameworkCore.SqlServer;
+using Brokers.Persistence;
 
 namespace Api
 {
@@ -37,16 +38,18 @@ namespace Api
             });
 
             // services.AddSingleton(sp => sp.GetRequiredService<IHttpClientFactory>());
-            string connectionString = Configuration.GetConnectionString("DefaultConnection");
-            services.AddDbContext<StorageBroker>(options => options.UseSqlServer(connectionString));
+          
             services.AddHttpClient(); 
             services.AddScoped<IHttpClient, HttpClientAdaptor>();
             services.AddScoped<IJustEatSearchRestaurantClient, JustEatSearchRestaurantClient>();
             services.AddScoped<IJsonDeserializer, RestaurantsDeserializer>();
             services.AddScoped<ISearchRestaurantsMapper, SearchRestaurantsMapper>();
             services.AddScoped<IRestaurantsFilter, RestaurantFilter>();
+            services.AddScoped<IRestaurantsFilter, RestaurantFilter>();
 
             services.AddMediatR(typeof(FindRestaurantsByCodeQuery).Assembly);
+        
+            services.AddBrokers(this.Configuration);
             //TODO: services.AddAutoMapper(new Assembly[] { typeof(RestaurantProfile).GetTypeInfo().Assembly });
 
         }
