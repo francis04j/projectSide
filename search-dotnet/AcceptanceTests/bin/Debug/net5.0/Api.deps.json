@@ -1612,6 +1612,7 @@
           "AutoMapper": "10.1.1",
           "Domain": "1.0.0",
           "MediatR": "9.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.14",
           "Microsoft.Extensions.Configuration": "5.0.0",
           "Microsoft.Extensions.Http": "5.0.0"
         },
@@ -1624,8 +1625,10 @@
       },
       "Brokers/1.0.0": {
         "dependencies": {
+          "Application": "1.0.0",
           "EFxceptions": "0.4.5",
           "Microsoft.EntityFrameworkCore": "5.0.14",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.14",
           "Microsoft.EntityFrameworkCore.Sqlite": "5.0.14"
         },
         "runtime": {
