@@ -1,0 +1,6 @@
+@francisadeAPI_HostAddress = http://localhost:5007
+
+GET {{francisadeAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
