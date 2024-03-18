@@ -103,6 +103,8 @@ dist
 # TernJS port file
 .tern-port
 
+**/bin/
+**/obj/
 AWS/francisade.com/.vs
 AWS/francisade.com/francisadeAPI/bin
 AWS/francisade.com/francisadeAPI/obj
