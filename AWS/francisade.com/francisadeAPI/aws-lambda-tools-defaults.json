@@ -3,10 +3,9 @@
   "region": "eu-west-2",
   "configuration": "",
   "function-runtime": "dotnet8",
-  "function-memory-size": 256,
+  "function-memory-size": 512,
   "function-timeout": 30,
   "function-handler": "francisadeAPI",
-  "function-name": "contactusapi",
-  "environment-variables": "ASPNETCORE_ENVIRONMENT=Development;SOMETHING_ELSE=value",
-  "function-url-enable": true
+  "function-name": "francisadeAPI",
+  "environment-variables": "ASPNETCORE_ENVIRONMENT=Development;SOMETHING_ELSE=value"
 }

@@ -8,7 +8,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 //Add AWS lambda support
-builder.Services.AddAWSLambdaHosting(LambdaEventSource.HttpApi);
+//NOTE: had to change to "RestApi" so that it can work with Gateway API
+builder.Services.AddAWSLambdaHosting(LambdaEventSource.RestApi);
+
 
 var app = builder.Build();
 

@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "francisadeAPI", "francisadeAPI\francisadeAPI.csproj", "{98F974BE-4EC6-41A0-BD7B-8E91A75F7231}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "francisadeAPI", "francisadeAPI\francisadeAPI.csproj", "{98F974BE-4EC6-41A0-BD7B-8E91A75F7231}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContactusLambdaApi", "ContactusLambdaApi\ContactusLambdaApi.csproj", "{B5DA29BE-3CE2-4CA1-BBDD-6C61ACEEE579}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PostContactUsApi", "PostContactUsApi\PostContactUsApi.csproj", "{7B1CFE4F-28C4-4EC7-9EE4-C7354B7658F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{98F974BE-4EC6-41A0-BD7B-8E91A75F7231}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98F974BE-4EC6-41A0-BD7B-8E91A75F7231}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98F974BE-4EC6-41A0-BD7B-8E91A75F7231}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5DA29BE-3CE2-4CA1-BBDD-6C61ACEEE579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5DA29BE-3CE2-4CA1-BBDD-6C61ACEEE579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5DA29BE-3CE2-4CA1-BBDD-6C61ACEEE579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5DA29BE-3CE2-4CA1-BBDD-6C61ACEEE579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B1CFE4F-28C4-4EC7-9EE4-C7354B7658F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B1CFE4F-28C4-4EC7-9EE4-C7354B7658F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B1CFE4F-28C4-4EC7-9EE4-C7354B7658F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B1CFE4F-28C4-4EC7-9EE4-C7354B7658F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
