@@ -1,5 +1,6 @@
 import "./styles.css";
 import { useState } from "react";
+import ProgressBar from "./progressBar";
 
 /*
   INSTRUCTIONS:
@@ -32,6 +33,7 @@ export default function App() {
 
   const [cities, setCities] = useState([]);
   const [inputValue, setInputValue] = useState("");
+ 
 
   const addCities = () => {
     //Complete function
@@ -63,18 +65,7 @@ export default function App() {
       <input type="text" value={inputValue} onChange={handleInputChange} onKeyDown={handleInputChange} />
       <button onClick={addCities}>Add City</button>
       <TodoList todos={cities} onDelete={onDelete} />
-      {/* <ul>
-        {cities.map((city) => (
-          <li key={city.id}>
-            {city.text}
-            <button
-              onClick={() => setCities(cities.filter((c) => c.id !== city.id))}
-            >            
-              Remove City
-            </button>
-          </li>
-        ))}
-      </ul> */}
+      <ProgressBar value={cities.length} color={'yellow'} />
     </div>
   );
 }

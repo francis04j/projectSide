@@ -2,3 +2,22 @@
     font-family: sans-serif;
     text-align: center;
   }
+
+
+  .progress {
+    border-radius: 7px; 
+    width: 80%;
+    height: 22px;
+    
+    box-shadow: 1px 1px 4px rgba( 0, 0, 0, 0.2 );
+  }
+  .progress-bar {
+    background-color: yellow;
+    border-radius: 7px;
+    height: 100%;
+  }
+  progress::-webkit-progress-value {
+    background-color: blue;
+    border-radius: 7px;
+    box-shadow: 1px 1px 5px 3px rgba( 255, 0, 0, 0.8 );
+  }
