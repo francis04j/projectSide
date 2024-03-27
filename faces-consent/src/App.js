@@ -47,9 +47,14 @@ export default function App() {
   const handleInputChange = (event) => {
     if(event.key === 'Enter'){
       setInputValue(event.target.value);
-      addCities();  
+      addCities();
+      setInputValue("");
     }
     setInputValue(event.target.value);
+  }
+
+  const onDelete = (id) => {
+    setCities(cities.filter(c => c.id !== id));
   }
 
   return (
@@ -57,8 +62,8 @@ export default function App() {
       <h1>Todo List</h1>
       <input type="text" value={inputValue} onChange={handleInputChange} onKeyDown={handleInputChange} />
       <button onClick={addCities}>Add City</button>
-
-      <ul>
+      <TodoList todos={cities} onDelete={onDelete} />
+      {/* <ul>
         {cities.map((city) => (
           <li key={city.id}>
             {city.text}
@@ -69,7 +74,7 @@ export default function App() {
             </button>
           </li>
         ))}
-      </ul>
+      </ul> */}
     </div>
   );
 }
