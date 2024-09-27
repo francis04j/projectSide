@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "es2015",
+    "target": "es2015",
+    "sourceMap": true,
+    "types": ["jest"]
+    },
+    "include": [
+        "**/*.test.ts",
+    ],
+    "exclude": [
+        "node_modules",
+        
+    ]
+}
