@@ -9,15 +9,16 @@
 
  * @param input 
  */
+
+function isAlphanumeric(str: string) {
+    return /^[a-zA-Z0-9]+$/.test(str);
+}
+
 export const countWords = (input: string) => {
- 
-    let separator = ' '; 
-    let result = input.split(separator)
-    let countExcludeSpace = 0;
-   
-    result.forEach(elem => { 
-        if(!isNaN(elem.charCodeAt(0))) {countExcludeSpace++; }});
-    return countExcludeSpace;
+    let separator = ' ';
+    return input.split(separator)
+        .filter(x => isAlphanumeric(x))
+        .length;
 }
 
 // LEarnt to day
