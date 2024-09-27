@@ -108,3 +108,5 @@ dist
 AWS/francisade.com/.vs
 AWS/francisade.com/francisadeAPI/bin
 AWS/francisade.com/francisadeAPI/obj
+#Mac OS system file
+.DS_Store
