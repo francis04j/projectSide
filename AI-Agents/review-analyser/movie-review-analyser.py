@@ -1,4 +1,4 @@
-import nltk
+import nltk #natural language toolkit
 import pandas as pd
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.model_selection import train_test_split
@@ -10,7 +10,7 @@ from nltk.corpus import movie_reviews
 # !pip install nltk pandas scikit-learn
 
 # Step 2: Data Preparation
-nltk.download("movie_reviews")
+nltk.download("movie_reviews") # movie review dataset by nltk; https://www.nltk.org/nltk_data/
 
 # Load the dataset
 documents = [
