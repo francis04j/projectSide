@@ -20,6 +20,7 @@ documents = [
 ]
 
 # Convert to DataFrame
+# pull the columns
 df = pd.DataFrame(documents, columns=["review", "sentiment"])
 
 # Step 3: Model Training
@@ -30,13 +31,14 @@ X = vectorizer.fit_transform(df["review"])
 y = df["sentiment"]
 
 # Split the data into training and testing sets
+# take 20% of data for test and take 80% of data for training
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.2, random_state=42
 )
 
 # Train a Naive Bayes classifier
-model = MultinomialNB()
-model.fit(X_train, y_train)
+model = MultinomialNB() # creates a model
+model.fit(X_train, y_train) # train a model
 
 # Evaluate the model
 y_pred = model.predict(X_test)
